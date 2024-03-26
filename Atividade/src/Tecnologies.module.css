@@ -13,7 +13,7 @@
     z-index: -1;
 }
 
-.wrap-cards-tec{
+.wrapCards{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,7 @@
     flex-wrap: wrap;
 }
 
-.wrap-btns-tec{
+.wrapButtons{
     display: flex;
     gap: 1vw;
     width: 100%;
@@ -30,7 +30,7 @@
     min-height: 50px;
 }
 
-.btnTec{
+.buttonsTec{
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -45,7 +45,7 @@
     transition: ease-in-out 0.3s;
 }
 
-.btnTec:hover{
+.buttonsTec:hover{
     background-color: black;
     transform: scale(1.1);
     color: white;
