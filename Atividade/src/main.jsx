@@ -1,5 +1,5 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom/client";
+import React from "react";
+import ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -33,7 +33,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/rickyAndMortyAPI",
-    element:  <RickyAndMortyAPI />
+    element:  <RickyAndMortyAPI />,
   }
 ]);
 
