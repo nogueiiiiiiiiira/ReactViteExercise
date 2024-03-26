@@ -1,26 +1,14 @@
 :root {
-  --bg-primary: pink;
-  --bg-secondary: #0a1424;
-  --bg-third: #b94a66;
+
 }
 
 *{
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
+
 }
 
 body{
-  width: 100vw;
-  height: auto;
-  min-height: 100vh;
-  overflow-x: hidden;
-  background-color: var(--bg-primary);
 
-}
 
-p{
-  color: var(--text-p);
 }
 
 button{
@@ -30,31 +18,5 @@ button{
 button:hover{
   cursor: pointer;
   opacity: 1;
-
-}
-
-a{
-  text-decoration: none;
-  color: var(--text-title);
-  opacity: 0.8;
-}
-
-a:hover{
-  opacity: 1;
-  cursor: pointer;
-}
-
-
-.leaflet-control-attribution{
-  display: none;
-  border-radius: 20px !important;
-}
-
-.leaflet-top{
-  z-index: 888;
-}
-
-.leaflet-touch-zoom{
-  border-radius: 20px !important;
 
 }
