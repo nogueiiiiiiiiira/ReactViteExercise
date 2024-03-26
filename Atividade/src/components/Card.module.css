@@ -3,6 +3,9 @@
     align-items: center;
     display: flex;
     gap: 2vh;
+    flex-direction: column;
+    gap: 8vw;
+    flex-wrap: wrap;
 }
 
 .Card{
@@ -16,8 +19,9 @@
     transform: scale(1.1);
 }
 
-.Card .card-img-top{
+.Card .cardImgTop{
     border-bottom-left-radius: 20px ;
     border-bottom-right-radius: 20px;
     border-radius: 20px;
 }
+
