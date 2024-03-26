@@ -1,12 +1,18 @@
-import style from './Tecnologies.module.css'
+import Card from './components/Card'
 import Menu from './components/Menu'
 
-export const Tecnologies = () =>{
-    <>
-     <Menu />
-     
-     <section className={style.wrapTec}>
-        <h1>Tecnologies</h1>
-    </section>
-    </>
+import style from './Tecnologies.module.css'
+
+export const Tecnologies = () => {
+    return(
+        <>
+            <Menu/>
+            <section className={style.wrapTec}>
+                <h1>Tecnologies</h1>
+                <div className={style.wrapCard}>
+                  
+                </div>
+            </section>
+        </>
+    )
 }
