@@ -1,7 +1,6 @@
-.wrap-principal{
+.wrapHome{
     display: flex;
     flex-direction: column;
-  
 }
 
 .firstPageHeading{
