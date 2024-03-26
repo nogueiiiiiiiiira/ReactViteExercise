@@ -1,14 +1,21 @@
 :root {
-
+  --bg-primary: pink;
+  --bg-secondary: black;
 }
 
 *{
-
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'Josefin Sans', cursive;
 }
 
 body{
-
-
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--bg-primary);
 }
 
 button{
@@ -19,4 +26,10 @@ button:hover{
   cursor: pointer;
   opacity: 1;
 
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-title);
+  opacity: 0.8;
 }
