@@ -1,0 +1,23 @@
+.wrapCard{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2vh;
+}
+
+.Card{
+    border-radius: 20px !important;
+    border: 4px solid white !important;
+    transition: transform 0.3s ease-in-out;
+    border: 1;
+}
+
+.Card:hover{
+    transform: scale(1.1);
+}
+
+.Card .card-img-top{
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+}
