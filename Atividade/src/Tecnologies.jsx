@@ -9,7 +9,7 @@ export const Tecnologies = () => {
             <Menu/>
             <section className={style.wrapTec}>
                 <h1>Tecnologies</h1>
-                <div className={style.wrapCardTec}>
+                <div className={style.wrapCardsTec}>
                   
                 </div>
             </section>
