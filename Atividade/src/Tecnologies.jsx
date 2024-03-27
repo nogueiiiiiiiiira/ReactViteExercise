@@ -3,6 +3,8 @@ import Menu from './components/Menu'
 
 import style from './Tecnologies.module.css'
 
+import REACT from './assets/img/react.svg'
+
 export const Tecnologies = () => {
     return(
         <>
