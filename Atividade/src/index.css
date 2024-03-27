@@ -33,3 +33,17 @@ a{
   color: var(--text-title);
   opacity: 0.8;
 }
+
+.leaflet-control-attribution{
+  display: none;
+  border-radius: 20px !important;
+}
+
+.leaflet-top{
+  z-index: 888;
+}
+
+.leaflet-touch-zoom{
+  border-radius: 20px !important;
+
+}
