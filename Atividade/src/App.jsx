@@ -6,7 +6,10 @@ export default function App() {
   return (
     <div className={style.wrapHome}>
         <Menu />
-      <h1 className={style.firstPageHeading}>Home!</h1>
+        <div className={style.firstPageHeading}>
+          <h1>HOME!</h1>
+          <p className={style.pHome} >Seja bem vindo(a) à atividade que o professor André pediu!</p>
+      </div>
     </div>
   )
 }

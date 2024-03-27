@@ -1,18 +1,23 @@
 .wrapMedia{
     color: white;
     width: 100vw;
-    height: 100vh;
     padding-top: 10vh;
     flex-direction: column;
     background-color: var(--bg-primary);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5vw;
+
+
 }
 
 .wrapInputsMedia{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     gap: 4vh;
 }
 
@@ -31,29 +36,61 @@
 .cardMedia{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
     border-radius: 15px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 400px;
-    width: 200px;
+    height: 60vh;
+    width: 20vw;
+    background-color: white;
+    color: black;
 }
 
 .buttonMedia{  
-    background-color: brown;
-    border: none;
+    background-color: white;
+    border: 1px solid black;
     border-radius: 20px;
     padding: 10px;
     opacity: 0.8;
-    transition: all 200ms linear;
+    transition: ease-in-out 0.2s;
     font-size: 0.8rem;
-    color: #ffff;
+    color: black;
     font-weight: 900;
+    width: 10vw;
+    height: 5vh;
 }
 
 .buttonMedia:hover{
-    transition: all 200ms linear;
+    transform: scale(1.1);
     cursor: pointer;
     opacity: 1;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: black;
+}
+
+.wrapInputsCalcular{
+    display: flex;
+    margin-top: 2vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.pMedia{
+    width: 4vw;
+    height: 4vh;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+
 }

@@ -17,7 +17,11 @@ export const Media = () => {
 
     return(
           <div className={style.wrapMedia}>
+            <h1>CALCULATIONS</h1>
             <Menu/>
+            <br />
+            <br />
+            <br />
               <div className={style.cardMedia}>
                   <div className={style.wrapInputsMedia}>
                     <h1>Média</h1>
@@ -64,7 +68,7 @@ export const Media = () => {
                 <div>
                     <div className={style.wrapInputsCalcular}>
                             <button className={style.buttonMedia} onClick={handleMedia}>Calcular</button>
-                            {!isNaN(respMedia) && <p>{respMedia.toFixed(2)}</p>}
+                            {!isNaN(respMedia) && <p className={style.pMedia} >{respMedia.toFixed(2)}</p>}
                     </div>
                 </div>
               </div>

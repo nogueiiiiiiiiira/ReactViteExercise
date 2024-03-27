@@ -5,11 +5,11 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import App from './App.jsx';
-import { Tecnologies } from './Tecnologies.jsx';
-import { Media } from  './Media.jsx';
-import { Contacts } from './Contacts.jsx';
-import { RickyAndMortyAPI } from './RickyAndMortyAPI.jsx'
+import App from "./App.jsx";
+import { Tecnologies } from "./Tecnologies.jsx";
+import { Media } from "./Media.jsx";
+import { Contacts } from "./Contacts.jsx";
+import { RickAndMortyAPI } from "./RickyAndMortyAPI.jsx";
 
 import './index.css'
 
@@ -33,7 +33,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/rickyAndMortyAPI",
-    element:  <RickyAndMortyAPI />,
+    element:  <RickAndMortyAPI />,
   }
 ]);
 
