@@ -32,3 +32,22 @@
     height: 400px;
     width: 200px;
 }
+
+.buttonMedia{  
+    background-color: brown;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    opacity: 0.8;
+    transition: all 200ms linear;
+    font-size: 0.8rem;
+    color: #ffff;
+    font-weight: 900;
+}
+
+.buttonMedia:hover{
+    transition: all 200ms linear;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
