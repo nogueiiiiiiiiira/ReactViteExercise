@@ -9,7 +9,8 @@ export default function Card(props){
           <img className={style.cardImgTop} src={props.imgSrc} alt={props.title} width={300} height={200}/>
           <div className={style.cardBody}>
               <p className={cardText}>props.desc/p>
-
+                  <p>{props.value}</p>
+                   
             </div>
           </div>
     )
