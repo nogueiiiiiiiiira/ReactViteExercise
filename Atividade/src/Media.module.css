@@ -17,11 +17,17 @@
 }
 
 .inputMedia{
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
     border: none;
-    border-radius: 999;
-    padding: 7px 10px;
+    background-color: lightgray;
 }
 
+.inputMedia:focus{
+    font-weight: 900;
+    border: 2px solid #3560b0;
+}
 .cardMedia{
     display: flex;
     flex-direction: column;
