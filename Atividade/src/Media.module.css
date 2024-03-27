@@ -1,4 +1,4 @@
-.sectionCalc{
+.wrapMedia{
     color: white;
     width: 100vw;
     height: 100vh;
@@ -14,7 +14,7 @@
     gap: 2vh;
 }
 
-.wrapInputsCalc{
+.wrapInputsMedia{
     display: flex;
     flex-direction: row;
     align-items: center;
