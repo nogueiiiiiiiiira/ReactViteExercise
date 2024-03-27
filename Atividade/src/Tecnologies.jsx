@@ -4,6 +4,11 @@ import Menu from './components/Menu'
 import style from './Tecnologies.module.css'
 
 import REACT from './assets/img/react.svg'
+import VITE from './assets/img/vite.svg'
+import AXIOS from './assets/img/axios.svg'
+import REACTDOM from './assets/img/reactdom.svg'
+import NPM from './assets/img/npm.svg'
+import NODE from './assets/img/node.svg'
 
 export const Tecnologies = () => {
     return(
