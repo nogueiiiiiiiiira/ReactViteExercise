@@ -37,8 +37,8 @@ export const RickAndMorty = () => {
                 {data.map((character) => {
                     return(
                     <>
-                    <CardRickyAndMorty
-                        name = {character.name}
+                    <Card
+                        title = {character.name}
                         desc = {character.species}
                         value =  {character.status === "Alive" ? <div style = {{background: "green"}}> Vivo </div> 
                         : character.status === "Dead" ? <div style = {{background: "red"}} > Morto </div>
