@@ -63,7 +63,7 @@ export const Media = () => {
                 </div>
                 <div>
                     <div className={style.wrapInputsCalcular}>
-                            <button onClick={handleMedia}>Calcular</button>
+                            <button className={style.buttonMedia} onClick={handleMedia}>Calcular</button>
                             {!isNaN(respMedia) && <p>{respMedia.toFixed(2)}</p>}
                     </div>
                 </div>
