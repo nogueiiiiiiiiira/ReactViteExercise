@@ -1,0 +1,107 @@
+
+.wrapAllContact{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-third);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+}
+
+.wraphMapa{
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-left: -0.5vw;
+}
+
+.wraphWhats{
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-left: -2vw;
+}
+
+.wrapTwoDivs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.border{
+    border-radius: 20px !important;
+
+}
+
+.wrapMap{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 20px !important;
+    
+}
+
+.inputsDiv{
+    padding: 1.8rem;
+    width: 500px;
+    height: 255px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    border-radius: 20px !important;
+    box-shadow: var(--shadow);
+    border: 2px solid black;
+}
+
+.inputCont, .textCont{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 20px !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.inputCont:focus{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;   
+    font-weight: bold;
+    height: 3.5vh;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 12px 34px;
+    font-size: 15px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px !important;
+    transition: ease-in-out 0.3s;
+}
+
+.btn:hover{
+    background-color: black;
+    transform: scale(1.1);
+    color: white;
+}
