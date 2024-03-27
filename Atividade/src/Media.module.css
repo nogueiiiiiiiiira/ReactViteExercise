@@ -4,7 +4,7 @@
     height: 100vh;
     padding-top: 10vh;
     flex-direction: column;
-    background-color: var(--bg-third);
+    background-color: var(--bg-primary);
 }
 
 .wrapInputsMedia{
