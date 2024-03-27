@@ -26,6 +26,3 @@
     background-color: red;
 }
 
-.wrapEach:hover{
-    box-shadow: var(--color-shadow);
-}
