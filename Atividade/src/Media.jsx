@@ -18,55 +18,57 @@ export const Media = () => {
     return(
           <div className={style.wrapMedia}>
             <Menu/>
-            <div className={style.wrapInputsMedia}>
-                <h1>Média</h1>
-                <input 
-                className={style.inputMedia}
-                type="text" 
-                placeholder="Digite o primeiro número: " 
-                value={numero1}
-                onChange={(event) => setNumero1(event.target.value)}
-                />
+              <div className={style.cardMedia}>
+                  <div className={style.wrapInputsMedia}>
+                    <h1>Média</h1>
+                    <input 
+                    className={style.inputMedia}
+                    type="text" 
+                    placeholder="Digite o primeiro número: " 
+                    value={numero1}
+                    onChange={(event) => setNumero1(event.target.value)}
+                    />
 
-                <input
-                className={style.inputMedia} 
-                type="text" 
-                placeholder="Digite o segundo número: " 
-                value={numero2}
-                onChange={(event) => setNumero2(event.target.value)}
-                />
+                    <input
+                    className={style.inputMedia} 
+                    type="text" 
+                    placeholder="Digite o segundo número: " 
+                    value={numero2}
+                    onChange={(event) => setNumero2(event.target.value)}
+                    />
                 
-                <input
-                className={style.inputMedia} 
-                type="text" 
-                placeholder="Digite o terceiro número: " 
-                value={numero3}
-                onChange={(event) => setNumero2(event.target.value)}
-                />
+                    <input
+                    className={style.inputMedia} 
+                    type="text" 
+                    placeholder="Digite o terceiro número: " 
+                    value={numero3}
+                    onChange={(event) => setNumero2(event.target.value)}
+                    />
 
-                <input
-                className={style.inputMedia} 
-                type="text" 
-                placeholder="Digite o quarto número: " 
-                value={numero4}
-                onChange={(event) => setNumero2(event.target.value)}
-                />
+                    <input
+                    className={style.inputMedia} 
+                    type="text" 
+                    placeholder="Digite o quarto número: " 
+                    value={numero4}
+                    onChange={(event) => setNumero2(event.target.value)}
+                    />
 
-                <input
-                className={style.inputMedia} 
-                type="text" 
-                placeholder="Digite o quinto número: " 
-                value={numero5}
-                onChange={(event) => setNumero2(event.target.value)}
-                />
-            </div>
-            <div>
-                <div className={style.wrapInputsCalcular}>
-                    <div className={style.wrapEach}>
-                        <button onClick={handleMedia}>Calcular</button>
-                        {!isNaN(respMedia) && <p>{respMedia.toFixed(2)}</p>}
+                    <input
+                    className={style.inputMedia} 
+                    type="text" 
+                    placeholder="Digite o quinto número: " 
+                    value={numero5}
+                    onChange={(event) => setNumero2(event.target.value)}
+                    />
+                </div>
+                <div>
+                    <div className={style.wrapInputsCalcular}>
+                        <div className={style.wrapEach}>
+                            <button onClick={handleMedia}>Calcular</button>
+                            {!isNaN(respMedia) && <p>{respMedia.toFixed(2)}</p>}
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+              </div>
+          </div>
 )}
