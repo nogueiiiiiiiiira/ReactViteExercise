@@ -7,13 +7,6 @@
     background-color: var(--bg-third);
 }
 
-.wrapCalc{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2vh;
-}
-
 .wrapInputsMedia{
     display: flex;
     flex-direction: row;
