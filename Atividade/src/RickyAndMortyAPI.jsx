@@ -43,7 +43,7 @@ export const RickAndMorty = () => {
                         value =  {character.status === "Alive" ? <div style = {{background: "green"}}> Vivo </div> 
                         : character.status === "Dead" ? <div style = {{background: "red"}} > Morto </div>
                         : <div style = {{background: "grey"}} > Desconhecido </div>}
-                        image = {character.image}
+                        imgSrc = {character.image}
                     />     
 
                         created = {character.created}           
