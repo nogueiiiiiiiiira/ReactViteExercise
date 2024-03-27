@@ -3,7 +3,7 @@ import React from 'react';
 
 import { useEffect } from "react";
 import { useState } from "react"
-import Card from "./components/Card";
+import Card2 from "./components/Card2";
 import { apiRMCharacters } from "./api/server"
 import style from './RickyAndMortyAPI.module.css'
 
@@ -40,13 +40,13 @@ export const RickAndMortyAPI = () => {
                 {data.map((character) => {
                     return(
                     <>
-                    <Card
+                    <Card2
                         title = {character.name}
                         desc = {character.species}
-                        value =  {character.status === "Alive" ? <div style = {{background: "green"}}> Vivo </div> 
-                        : character.status === "Dead" ? <div style = {{background: "red"}} > Morto </div>
-                        : <div style = {{background: "grey"}} > Desconhecido </div>}
-                        imgSrc = {character.image}
+                        value =  {character.status === "Alive" ? <div style = {{color: "green"}}> Vivo </div> 
+                        : character.status === "Dead" ? <div style = {{color: "red"}} > Morto </div>
+                        : <div style = {{color: "grey"}} > Desconhecido </div>}
+                        imgSrc2 = {character.image}
                     />     
 
                     </>

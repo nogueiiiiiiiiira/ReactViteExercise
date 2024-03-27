@@ -31,3 +31,7 @@ input{
     gap: 2vw;
     margin-left: 5vw;
 }
+
+.cardCharacter{
+    height: 400px;
+}
