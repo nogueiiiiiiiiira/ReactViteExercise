@@ -1,4 +1,4 @@
-import Card from './components/Card'
+import { Card } from "./components/Card";
 import Menu from './components/Menu'
 
 import style from './Tecnologies.module.css'
