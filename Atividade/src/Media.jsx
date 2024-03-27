@@ -6,14 +6,14 @@ import { useEffect } from "react"
 
 export const Media = () => {
     
-    const [numero1, setNumero1] = useState()
-    const [numero2, setNumero2] = useState()
-    const [numero3, setNumero3] = useState()
-    const [numero4, setNumero4] = useState()
-    const [numero5, setNumero5] = useState()
-    const [respMedia, setMedia] = useState()
+    const [numero1, setNumero1] = useState();
+    const [numero2, setNumero2] = useState();
+    const [numero3, setNumero3] = useState();
+    const [numero4, setNumero4] = useState();
+    const [numero5, setNumero5] = useState();
+    const [respMedia, setMedia] = useState();
 
-    const handleMedia= () => respMedia((parseFloat(numero1) + parseFloat(numero2) + parseFloat(numero3) + parseFloat(numero4) + parseFloat(numero5)) / 5)
+    const handleMedia= () => setMedia((parseFloat(numero1) + parseFloat(numero2) + parseFloat(numero3) + parseFloat(numero4) + parseFloat(numero5)) / 5)
 
     return(
           <div className={style.wrapMedia}>
@@ -42,7 +42,7 @@ export const Media = () => {
                     type="text" 
                     placeholder="Digite o terceiro número: " 
                     value={numero3}
-                    onChange={(event) => setNumero2(event.target.value)}
+                    onChange={(event) => setNumero3(event.target.value)}
                     />
 
                     <input
@@ -50,7 +50,7 @@ export const Media = () => {
                     type="text" 
                     placeholder="Digite o quarto número: " 
                     value={numero4}
-                    onChange={(event) => setNumero2(event.target.value)}
+                    onChange={(event) => setNumero4(event.target.value)}
                     />
 
                     <input
@@ -58,7 +58,7 @@ export const Media = () => {
                     type="text" 
                     placeholder="Digite o quinto número: " 
                     value={numero5}
-                    onChange={(event) => setNumero2(event.target.value)}
+                    onChange={(event) => setNumero5(event.target.value)}
                     />
                 </div>
                 <div>
